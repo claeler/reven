@@ -18,7 +18,7 @@ Note -⟩ We Only Accept Upi And Crytpo</b>");
 
 $nopre = urlencode("<b>YOU NEED TO BE PREMIUM TO USE THIS COMMAND.
 Hit /buy to purchase</b>");
-$botToken =  "1816615315:AAH9_Zh6dtekxEVm_b_cIACCVYML0Dp8e88";
+$botToken =  "7060640788:AAEM3EU-ke7e1vqVcCc9gGnjNxCtRiRGoS0";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 echo $update;
@@ -198,7 +198,7 @@ THIS BOT IS MADE WITH ♥️ BY  <code>@r0ld3x</code> </b>",
         exit();
 }
 
-$premium_id = (array("1792903396","1317173146"));
+$premium_id = (array("5654340595","1317173146"));
 $premiumgp = (array("-1001320804136","-1001552296979","-1001300027599","-1001298504199","-1001434792768"));
         $keyboard = json_encode([
 'inline_keyboard' => [
